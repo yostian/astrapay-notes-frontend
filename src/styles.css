@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+.container {
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  input[type='text'] {
+    padding: 8px;
+    width: 70%;
+  }
+  
+  button {
+    padding: 8px 12px;
+    margin-left: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    background: #f2f2f2;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
